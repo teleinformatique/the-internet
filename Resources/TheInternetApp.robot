@@ -3,6 +3,7 @@ Resource  ./PO/HomePage.robot
 Resource  ./PO/FormAuthPage.robot
 Resource  ./PO/SecurePage.robot
 Resource  ./PO/AddRemoveElementPage.robot
+Resource  ./PO/CheckBoxPage.robot
 
 *** Variables ***
 
@@ -38,5 +39,14 @@ Navigate To "ADD/Remove Element" Page
     AddRemoveElementPage.Verify Added Element  2
     AddRemoveElementPage.Remove ELement In List
     AddRemoveElementPage.Verify Added Element  1
+
+
+Navigate To "Checkbox" Page
+    HomePage.Load
+    HomePage.Click On "Checkboxes" Link Text
+    CheckBoxPage.Verify Page Loaded
+    CheckBoxPage.Verify Second CheckBox Is Checked
+    CheckBoxPage.Uncheck Checked CheckBox
+    CheckBoxPage.Verify Second CheckBox Is Not Checked
 
 

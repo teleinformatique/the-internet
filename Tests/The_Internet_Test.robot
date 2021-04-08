@@ -27,3 +27,7 @@ Should Add/Remove Element on "Add/Remove Element" Page
     [Tags]  add_remove
     TheInternetApp.Navigate To "ADD/Remove Element" Page
 
+Should Check And Uncheck on "CheckBox" Page
+    [Tags]  checkboxes
+    TheInternetApp.Navigate To "Checkbox" Page
+

@@ -6,7 +6,7 @@ ${PAGE_TITLE_LOCATOR}=  css=.heading
 ${HOME_PAGE_TITLE}=  Welcome to the-internet
 ${FORM_AUTH_LINK_TEXT}=  Form Authentication
 ${ADD_PAGE_LINK_TEXT}=  Add/Remove Elements
-
+${CHECKBOX_PAGE_LINK}=  Checkboxes
 *** Keywords ***
 Load
     Go to  ${HOME_PAGE_URL}
@@ -19,4 +19,7 @@ Click On Auth Link Text
 
 Click On "Add/Remove Elements" Link
     Click Link  ${ADD_PAGE_LINK_TEXT}
+    
+Click On "Checkboxes" Link Text
+    Click Link    ${CHECKBOX_PAGE_LINK}
 
