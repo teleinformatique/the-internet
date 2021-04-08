@@ -9,6 +9,7 @@ ${ADD_PAGE_LINK_TEXT}=  Add/Remove Elements
 ${CHECKBOX_PAGE_LINK}=  Checkboxes
 ${CONTEXTMENU_PAGE_LINK_TEXT}=  Context Menu
 ${DRAGDROP_LINK_TEXT}=  Drag and Drop
+${DROPDOWN_LINK_TEXT}=  Dropdown
 
 
 *** Keywords ***
@@ -32,4 +33,7 @@ Click on "Context Menu" Link Text
 
 Click on "Drag and Drop" Link Text
     Click Link  ${DRAGDROP_LINK_TEXT}
+
+Click on "DropDown" Link Text
+    Click Link  ${DROPDOWN_LINK_TEXT}
 

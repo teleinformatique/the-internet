@@ -39,3 +39,6 @@ Should Be DragDrop Element on "Drag and Drop" Page
     [Tags]  dragdrop
     TheInternetApp.Navigate To "Drag and Drop" Page
 
+Should Select on "DropDown" Page
+    [Tags]  dropdown
+    TheInternetApp.Navigate To "DropDown" Page

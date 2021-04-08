@@ -6,6 +6,7 @@ Resource  ./PO/AddRemoveElementPage.robot
 Resource  ./PO/CheckBoxPage.robot
 Resource  ./PO/ContextMenuPage.robot
 Resource  ./PO/DragDropPage.robot
+Resource  ./PO/DropDownPage.robot
 
 *** Variables ***
 
@@ -69,3 +70,10 @@ Navigate To "Drag and Drop" Page
     DragDropPage.Verify Title Of BOx  A
 
 
+Navigate To "DropDown" Page
+    HomePage.Load
+    HomePage.Click on "DropDown" Link Text
+    DropDownPage.Verify Page Loaded
+    DropDownPage.Verify Option "Please select an option" is Selected
+    DropDownPage.Select Option
+    DropDownPage.Verify Option Is Select
