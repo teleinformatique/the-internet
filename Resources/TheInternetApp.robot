@@ -5,6 +5,7 @@ Resource  ./PO/SecurePage.robot
 Resource  ./PO/AddRemoveElementPage.robot
 Resource  ./PO/CheckBoxPage.robot
 Resource  ./PO/ContextMenuPage.robot
+Resource  ./PO/DragDropPage.robot
 
 *** Variables ***
 
@@ -51,12 +52,20 @@ Navigate To "Checkbox" Page
     CheckBoxPage.Verify Second CheckBox Is Not Checked
 
 
-Navigate to "Context Menu" Page
+Navigate To "Context Menu" Page
     HomePage.Load
     HomePage.Click on "Context Menu" Link Text
     ContextMenuPage.Verify Page Loaded
     ContextMenuPage.Move Mouse to Context Menu Zone
     ContextMenuPage.Right Click on Context Menu Zone
     ContextMenuPage.Verify Alert Showed
+
+
+Navigate To "Drag and Drop" Page
+    HomePage.Load
+    HomePage.Click on "Drag and Drop" Link Text
+    DragDropPage.Verify Page loaded
+    DragDropPage.Move Box A To B
+    DragDropPage.Verify Title Of BOx  A
 
 

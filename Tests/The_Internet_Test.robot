@@ -33,5 +33,9 @@ Should Check And Uncheck on "CheckBox" Page
 
 Should Right Click On "Context Menu" Page
     [Tags]  contextmenu
-    TheInternetApp.Navigate to "Context Menu" Page
+    TheInternetApp.Navigate To "Context Menu" Page
+
+Should Be DragDrop Element on "Drag and Drop" Page
+    [Tags]  dragdrop
+    TheInternetApp.Navigate To "Drag and Drop" Page
 

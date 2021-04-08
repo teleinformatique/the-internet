@@ -1,222 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.2 on darwin)" generated="20210408 11:31:41.812" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.2 on darwin)" generated="20210408 15:19:55.946" rpa="false">
 <suite id="s1" name="The Internet Test" source="/Users/khadim/Projects/the-internet.robot/Tests/The_Internet_Test.robot">
-<test id="s1-t1" name="Should Right Click On &quot;Context Menu&quot; Page">
+<test id="s1-t1" name="Should Be DragDrop Element on &quot;Drag and Drop&quot; Page">
 <kw name="Begin Test Case" library="Common" type="setup">
-<msg timestamp="20210408 11:31:42.011" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 15:19:56.166" level="TRACE">Arguments: [  ]</msg>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
 <arguments>
 <arg>about:blank</arg>
 <arg>Chrome</arg>
 </arguments>
-<msg timestamp="20210408 11:31:42.011" level="TRACE">Arguments: [ 'about:blank' | 'Chrome' ]</msg>
-<msg timestamp="20210408 11:31:42.011" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
-<msg timestamp="20210408 11:31:43.032" level="DEBUG">POST http://127.0.0.1:57060/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}</msg>
-<msg timestamp="20210408 11:31:43.034" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:57060</msg>
-<msg timestamp="20210408 11:31:46.774" level="DEBUG">http://127.0.0.1:57060 "POST /session HTTP/1.1" 200 763</msg>
-<msg timestamp="20210408 11:31:46.775" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:46.775" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts {"script": 5000}</msg>
-<msg timestamp="20210408 11:31:46.777" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:46.777" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:46.777" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts {"implicit": 0}</msg>
-<msg timestamp="20210408 11:31:46.779" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:46.779" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:46.780" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/url {"url": "about:blank"}</msg>
-<msg timestamp="20210408 11:31:46.806" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:46.806" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:46.806" level="DEBUG">Opened browser with session id b0fa2fde4c074b6bac98ddca7ed671f8.</msg>
-<msg timestamp="20210408 11:31:46.807" level="TRACE">Return: 1</msg>
-<status status="PASS" starttime="20210408 11:31:42.011" endtime="20210408 11:31:46.807"></status>
+<msg timestamp="20210408 15:19:56.166" level="TRACE">Arguments: [ 'about:blank' | 'Chrome' ]</msg>
+<msg timestamp="20210408 15:19:56.167" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
+<msg timestamp="20210408 15:19:57.182" level="DEBUG">POST http://127.0.0.1:60986/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}</msg>
+<msg timestamp="20210408 15:19:57.182" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:60986</msg>
+<msg timestamp="20210408 15:20:00.025" level="DEBUG">http://127.0.0.1:60986 "POST /session HTTP/1.1" 200 763</msg>
+<msg timestamp="20210408 15:20:00.026" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:00.027" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/timeouts {"script": 5000}</msg>
+<msg timestamp="20210408 15:20:00.030" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:00.030" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:00.030" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/timeouts {"implicit": 0}</msg>
+<msg timestamp="20210408 15:20:00.033" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:00.033" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:00.034" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/url {"url": "about:blank"}</msg>
+<msg timestamp="20210408 15:20:00.066" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:00.067" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:00.067" level="DEBUG">Opened browser with session id b7a2d95d724dd1c43bbef8110f7a2b82.</msg>
+<msg timestamp="20210408 15:20:00.067" level="TRACE">Return: 1</msg>
+<status status="PASS" starttime="20210408 15:19:56.166" endtime="20210408 15:20:00.067"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<msg timestamp="20210408 11:31:46.807" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20210408 11:31:46.808" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/window/maximize {}</msg>
-<msg timestamp="20210408 11:31:46.939" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/window/maximize HTTP/1.1" 200 50</msg>
-<msg timestamp="20210408 11:31:46.940" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:46.940" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:46.807" endtime="20210408 11:31:46.940"></status>
+<msg timestamp="20210408 15:20:00.068" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 15:20:00.068" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/window/maximize {}</msg>
+<msg timestamp="20210408 15:20:00.194" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/window/maximize HTTP/1.1" 200 50</msg>
+<msg timestamp="20210408 15:20:00.195" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:00.195" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:00.068" endtime="20210408 15:20:00.195"></status>
 </kw>
-<msg timestamp="20210408 11:31:46.940" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:42.011" endtime="20210408 11:31:46.940"></status>
+<msg timestamp="20210408 15:20:00.196" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:19:56.166" endtime="20210408 15:20:00.196"></status>
 </kw>
-<kw name="Navigate to &quot;Context Menu&quot; Page" library="TheInternetApp">
-<msg timestamp="20210408 11:31:46.941" level="TRACE">Arguments: [  ]</msg>
+<kw name="Navigate To &quot;Drag and Drop&quot; Page" library="TheInternetApp">
+<msg timestamp="20210408 15:20:00.197" level="TRACE">Arguments: [  ]</msg>
 <kw name="Load" library="HomePage">
-<msg timestamp="20210408 11:31:46.942" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 15:20:00.198" level="TRACE">Arguments: [  ]</msg>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the current browser window to the provided ``url``.</doc>
 <arguments>
 <arg>${HOME_PAGE_URL}</arg>
 </arguments>
-<msg timestamp="20210408 11:31:46.942" level="TRACE">Arguments: [ 'https://the-internet.herokuapp.com/' ]</msg>
-<msg timestamp="20210408 11:31:46.943" level="INFO">Opening url 'https://the-internet.herokuapp.com/'</msg>
-<msg timestamp="20210408 11:31:46.943" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/url {"url": "https://the-internet.herokuapp.com/"}</msg>
-<msg timestamp="20210408 11:31:49.370" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:49.371" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.371" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:46.942" endtime="20210408 11:31:49.371"></status>
+<msg timestamp="20210408 15:20:00.199" level="TRACE">Arguments: [ 'https://the-internet.herokuapp.com/' ]</msg>
+<msg timestamp="20210408 15:20:00.199" level="INFO">Opening url 'https://the-internet.herokuapp.com/'</msg>
+<msg timestamp="20210408 15:20:00.200" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/url {"url": "https://the-internet.herokuapp.com/"}</msg>
+<msg timestamp="20210408 15:20:04.369" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:04.369" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.370" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:00.199" endtime="20210408 15:20:04.370"></status>
 </kw>
-<msg timestamp="20210408 11:31:49.371" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:46.941" endtime="20210408 11:31:49.371"></status>
+<msg timestamp="20210408 15:20:04.370" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:00.198" endtime="20210408 15:20:04.370"></status>
 </kw>
-<kw name="Click on &quot;Context Menu&quot; Link Text" library="HomePage">
-<msg timestamp="20210408 11:31:49.372" level="TRACE">Arguments: [  ]</msg>
+<kw name="Click on &quot;Drag and Drop&quot; Link Text" library="HomePage">
+<msg timestamp="20210408 15:20:04.370" level="TRACE">Arguments: [  ]</msg>
 <kw name="Click Link" library="SeleniumLibrary">
 <doc>Clicks a link identified by ``locator``.</doc>
 <arguments>
-<arg>${CONTEXTMENU_PAGE_LINK_TEXT}</arg>
+<arg>${DRAGDROP_LINK_TEXT}</arg>
 </arguments>
-<msg timestamp="20210408 11:31:49.372" level="TRACE">Arguments: [ 'Context Menu' ]</msg>
-<msg timestamp="20210408 11:31:49.372" level="INFO">Clicking link 'Context Menu'.</msg>
-<msg timestamp="20210408 11:31:49.372" level="DEBUG">GET http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/url {}</msg>
-<msg timestamp="20210408 11:31:49.377" level="DEBUG">http://127.0.0.1:57060 "GET /session/b0fa2fde4c074b6bac98ddca7ed671f8/url HTTP/1.1" 200 47</msg>
-<msg timestamp="20210408 11:31:49.378" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.378" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//a[(@id='Context Menu' or @name='Context Menu' or @href='Context Menu' or normalize-space(descendant-or-self::text())='Context Menu' or @href='https://the-internet.herokuapp.com/Context Menu')]"}</msg>
-<msg timestamp="20210408 11:31:49.392" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 11:31:49.392" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.392" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/element/84f9a21f-268a-4f30-870b-29291dac7c6d/click {"id": "84f9a21f-268a-4f30-870b-29291dac7c6d"}</msg>
-<msg timestamp="20210408 11:31:49.780" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/element/84f9a21f-268a-4f30-870b-29291dac7c6d/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:49.780" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.780" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.372" endtime="20210408 11:31:49.780"></status>
+<msg timestamp="20210408 15:20:04.371" level="TRACE">Arguments: [ 'Drag and Drop' ]</msg>
+<msg timestamp="20210408 15:20:04.371" level="INFO">Clicking link 'Drag and Drop'.</msg>
+<msg timestamp="20210408 15:20:04.371" level="DEBUG">GET http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/url {}</msg>
+<msg timestamp="20210408 15:20:04.379" level="DEBUG">http://127.0.0.1:60986 "GET /session/b7a2d95d724dd1c43bbef8110f7a2b82/url HTTP/1.1" 200 47</msg>
+<msg timestamp="20210408 15:20:04.379" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.379" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/elements {"using": "xpath", "value": "//a[(@id='Drag and Drop' or @name='Drag and Drop' or @href='Drag and Drop' or normalize-space(descendant-or-self::text())='Drag and Drop' or @href='https://the-internet.herokuapp.com/Drag and Drop')]"}</msg>
+<msg timestamp="20210408 15:20:04.410" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 15:20:04.410" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.411" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/element/912ddad3-5bf7-4433-a80f-7132e2a2967d/click {"id": "912ddad3-5bf7-4433-a80f-7132e2a2967d"}</msg>
+<msg timestamp="20210408 15:20:04.945" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/element/912ddad3-5bf7-4433-a80f-7132e2a2967d/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:04.945" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.945" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.371" endtime="20210408 15:20:04.945"></status>
 </kw>
-<msg timestamp="20210408 11:31:49.780" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.371" endtime="20210408 11:31:49.780"></status>
+<msg timestamp="20210408 15:20:04.945" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.370" endtime="20210408 15:20:04.945"></status>
 </kw>
-<kw name="Verify Page Loaded" library="ContextMenuPage">
-<msg timestamp="20210408 11:31:49.781" level="TRACE">Arguments: [  ]</msg>
+<kw name="Verify Page loaded" library="DragDropPage">
+<msg timestamp="20210408 15:20:04.946" level="TRACE">Arguments: [  ]</msg>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
-<arg>${CONTEXTMENU_PAGE_TITLE_LOCATOR}</arg>
+<arg>${DRAGDROP_PAGE_TITLE_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210408 11:31:49.782" level="TRACE">Arguments: [ 'xpath=//div[@id="content"]/div/h3' ]</msg>
-<msg timestamp="20210408 11:31:49.782" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//div[@id=\"content\"]/div/h3"}</msg>
-<msg timestamp="20210408 11:31:49.798" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 11:31:49.798" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.799" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.781" endtime="20210408 11:31:49.799"></status>
+<msg timestamp="20210408 15:20:04.946" level="TRACE">Arguments: [ 'xpath=//div[@class="example"]/h3' ]</msg>
+<msg timestamp="20210408 15:20:04.946" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/elements {"using": "xpath", "value": "//div[@class=\"example\"]/h3"}</msg>
+<msg timestamp="20210408 15:20:04.964" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 15:20:04.965" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.965" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.946" endtime="20210408 15:20:04.965"></status>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <doc>Verifies that current page contains ``text``.</doc>
 <arguments>
-<arg>${CONTEXTMENU_PAGE_TITLE}</arg>
+<arg>${DRAGDROP_PAGE_TITLE}</arg>
 </arguments>
-<msg timestamp="20210408 11:31:49.800" level="TRACE">Arguments: [ 'Context Menu' ]</msg>
-<msg timestamp="20210408 11:31:49.801" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/frame {"id": null}</msg>
-<msg timestamp="20210408 11:31:49.806" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/frame HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:49.806" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.807" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//*[contains(., 'Context Menu')]"}</msg>
-<msg timestamp="20210408 11:31:49.821" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 485</msg>
-<msg timestamp="20210408 11:31:49.822" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.822" level="INFO">Current page contains text 'Context Menu'.</msg>
-<msg timestamp="20210408 11:31:49.822" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.799" endtime="20210408 11:31:49.823"></status>
+<msg timestamp="20210408 15:20:04.966" level="TRACE">Arguments: [ 'Drag and Drop' ]</msg>
+<msg timestamp="20210408 15:20:04.967" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/frame {"id": null}</msg>
+<msg timestamp="20210408 15:20:04.971" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/frame HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:04.971" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.971" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/elements {"using": "xpath", "value": "//*[contains(., 'Drag and Drop')]"}</msg>
+<msg timestamp="20210408 15:20:04.982" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/elements HTTP/1.1" 200 485</msg>
+<msg timestamp="20210408 15:20:04.982" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.983" level="INFO">Current page contains text 'Drag and Drop'.</msg>
+<msg timestamp="20210408 15:20:04.983" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.966" endtime="20210408 15:20:04.983"></status>
 </kw>
-<msg timestamp="20210408 11:31:49.823" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.781" endtime="20210408 11:31:49.823"></status>
+<msg timestamp="20210408 15:20:04.983" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.945" endtime="20210408 15:20:04.983"></status>
 </kw>
-<kw name="Move Mouse to Context Menu Zone" library="ContextMenuPage">
-<msg timestamp="20210408 11:31:49.824" level="TRACE">Arguments: [  ]</msg>
-<kw name="Mouse Over" library="SeleniumLibrary">
-<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<kw name="Move Box A To B" library="DragDropPage">
+<msg timestamp="20210408 15:20:04.984" level="TRACE">Arguments: [  ]</msg>
+<kw name="Drag And Drop By Offset" library="SeleniumLibrary">
+<doc>Drags the element identified with ``locator`` by ``xoffset/yoffset``.</doc>
 <arguments>
-<arg>${CONTEXTMENU_ZONE_LOCATOR}</arg>
+<arg>${BOX_A_LOCATOR}</arg>
+<arg>150</arg>
+<arg>0</arg>
 </arguments>
-<msg timestamp="20210408 11:31:49.824" level="TRACE">Arguments: [ 'xpath=//div[@id="hot-spot"]' ]</msg>
-<msg timestamp="20210408 11:31:49.824" level="INFO">Simulating Mouse Over on element 'xpath=//div[@id="hot-spot"]'.</msg>
-<msg timestamp="20210408 11:31:49.824" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//div[@id=\"hot-spot\"]"}</msg>
-<msg timestamp="20210408 11:31:49.838" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 11:31:49.838" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:49.839" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "b6fadcbf-4470-4457-a0bd-11232418781f"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}</msg>
-<msg timestamp="20210408 11:31:50.100" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/actions HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:50.101" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.101" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.824" endtime="20210408 11:31:50.101"></status>
+<msg timestamp="20210408 15:20:04.984" level="TRACE">Arguments: [ 'xpath=//div[@id="column-a"]' | '150' | '0' ]</msg>
+<msg timestamp="20210408 15:20:04.985" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/elements {"using": "xpath", "value": "//div[@id=\"column-a\"]"}</msg>
+<msg timestamp="20210408 15:20:04.998" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 15:20:04.999" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:04.999" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "da0339e8-45cf-440a-ba48-92fe6036648c"}}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerMove", "duration": 250, "x": 150, "y": 0, "origin": "pointer"}, {"type": "pointerUp", "duration": 0, "button": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}</msg>
+<msg timestamp="20210408 15:20:05.539" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/actions HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:05.539" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:05.539" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.984" endtime="20210408 15:20:05.539"></status>
 </kw>
-<msg timestamp="20210408 11:31:50.101" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:49.823" endtime="20210408 11:31:50.101"></status>
+<msg timestamp="20210408 15:20:05.539" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:04.983" endtime="20210408 15:20:05.539"></status>
 </kw>
-<kw name="Right Click on Context Menu Zone" library="ContextMenuPage">
-<msg timestamp="20210408 11:31:50.102" level="TRACE">Arguments: [  ]</msg>
-<kw name="Open Context Menu" library="SeleniumLibrary">
-<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<kw name="Verify Title Of BOx" library="DragDropPage">
 <arguments>
-<arg>${CONTEXTMENU_ZONE_LOCATOR}</arg>
+<arg>A</arg>
 </arguments>
-<msg timestamp="20210408 11:31:50.102" level="TRACE">Arguments: [ 'xpath=//div[@id="hot-spot"]' ]</msg>
-<msg timestamp="20210408 11:31:50.102" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//div[@id=\"hot-spot\"]"}</msg>
-<msg timestamp="20210408 11:31:50.108" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 11:31:50.109" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.109" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "b6fadcbf-4470-4457-a0bd-11232418781f"}}, {"type": "pointerDown", "duration": 0, "button": 2}, {"type": "pointerUp", "duration": 0, "button": 2}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}</msg>
-<msg timestamp="20210408 11:31:50.389" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/actions HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:50.390" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.390" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:50.102" endtime="20210408 11:31:50.390"></status>
-</kw>
-<msg timestamp="20210408 11:31:50.391" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:50.101" endtime="20210408 11:31:50.391"></status>
-</kw>
-<kw name="Verify Alert Showed" library="ContextMenuPage">
-<msg timestamp="20210408 11:31:50.392" level="TRACE">Arguments: [  ]</msg>
-<kw name="Alert Should Be Present" library="SeleniumLibrary">
-<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<msg timestamp="20210408 15:20:05.540" level="TRACE">Arguments: [ ${box_title}='A' ]</msg>
+<kw name="Get Heading Title" library="DragDropPage">
 <arguments>
-<arg>You selected a context menu</arg>
+<arg>${BOX_B_HEADING_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210408 11:31:50.393" level="TRACE">Arguments: [ 'You selected a context menu' ]</msg>
-<msg timestamp="20210408 11:31:50.394" level="DEBUG">GET http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text {}</msg>
-<msg timestamp="20210408 11:31:50.395" level="DEBUG">http://127.0.0.1:57060 "GET /session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text HTTP/1.1" 200 39</msg>
-<msg timestamp="20210408 11:31:50.396" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.396" level="DEBUG">GET http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text {}</msg>
-<msg timestamp="20210408 11:31:50.398" level="DEBUG">http://127.0.0.1:57060 "GET /session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text HTTP/1.1" 200 39</msg>
-<msg timestamp="20210408 11:31:50.398" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.398" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/accept {}</msg>
-<msg timestamp="20210408 11:31:50.409" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/accept HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:50.409" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.409" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:50.393" endtime="20210408 11:31:50.410"></status>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20210408 15:20:05.540" level="TRACE">Arguments: [ ${locator}='xpath=//div[@id="column-b"]/header' ]</msg>
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>${locator}</arg>
+</arguments>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20210408 15:20:05.541" level="TRACE">Arguments: [ 'xpath=//div[@id="column-b"]/header' ]</msg>
+<msg timestamp="20210408 15:20:05.541" level="DEBUG">POST http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/elements {"using": "xpath", "value": "//div[@id=\"column-b\"]/header"}</msg>
+<msg timestamp="20210408 15:20:05.552" level="DEBUG">http://127.0.0.1:60986 "POST /session/b7a2d95d724dd1c43bbef8110f7a2b82/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 15:20:05.552" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:05.552" level="DEBUG">GET http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82/element/7262d7f1-2d65-4136-8e28-fa7ea04cd6a2/text {"id": "7262d7f1-2d65-4136-8e28-fa7ea04cd6a2"}</msg>
+<msg timestamp="20210408 15:20:05.570" level="DEBUG">http://127.0.0.1:60986 "GET /session/b7a2d95d724dd1c43bbef8110f7a2b82/element/7262d7f1-2d65-4136-8e28-fa7ea04cd6a2/text HTTP/1.1" 200 13</msg>
+<msg timestamp="20210408 15:20:05.570" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:05.570" level="TRACE">Return: 'B'</msg>
+<msg timestamp="20210408 15:20:05.571" level="INFO">${title} = B</msg>
+<status status="PASS" starttime="20210408 15:20:05.541" endtime="20210408 15:20:05.571"></status>
 </kw>
-<msg timestamp="20210408 11:31:50.410" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:50.392" endtime="20210408 11:31:50.410"></status>
+<msg timestamp="20210408 15:20:05.571" level="TRACE">Return: 'B'</msg>
+<msg timestamp="20210408 15:20:05.572" level="INFO">${title} = B</msg>
+<status status="PASS" starttime="20210408 15:20:05.540" endtime="20210408 15:20:05.572"></status>
 </kw>
-<msg timestamp="20210408 11:31:50.410" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:46.941" endtime="20210408 11:31:50.411"></status>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${title}</arg>
+<arg>${box_title}</arg>
+</arguments>
+<msg timestamp="20210408 15:20:05.572" level="TRACE">Arguments: [ 'B' | 'A' ]</msg>
+<msg timestamp="20210408 15:20:05.572" level="DEBUG">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<msg timestamp="20210408 15:20:05.572" level="FAIL">B != A</msg>
+<msg timestamp="20210408 15:20:05.572" level="DEBUG">Traceback (most recent call last):
+  None</msg>
+<status status="FAIL" starttime="20210408 15:20:05.572" endtime="20210408 15:20:05.572"></status>
+</kw>
+<status status="FAIL" starttime="20210408 15:20:05.540" endtime="20210408 15:20:05.573"></status>
+</kw>
+<status status="FAIL" starttime="20210408 15:20:00.197" endtime="20210408 15:20:05.573"></status>
 </kw>
 <kw name="End Test Case" library="Common" type="teardown">
-<msg timestamp="20210408 11:31:50.412" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 15:20:05.573" level="TRACE">Arguments: [  ]</msg>
 <kw name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20210408 11:31:50.412" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20210408 11:31:50.412" level="DEBUG">Closing all browsers.</msg>
-<msg timestamp="20210408 11:31:50.413" level="DEBUG">DELETE http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8 {}</msg>
-<msg timestamp="20210408 11:31:50.478" level="DEBUG">http://127.0.0.1:57060 "DELETE /session/b0fa2fde4c074b6bac98ddca7ed671f8 HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 11:31:50.478" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 11:31:50.530" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:50.412" endtime="20210408 11:31:50.530"></status>
+<msg timestamp="20210408 15:20:05.574" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 15:20:05.574" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20210408 15:20:05.574" level="DEBUG">DELETE http://127.0.0.1:60986/session/b7a2d95d724dd1c43bbef8110f7a2b82 {}</msg>
+<msg timestamp="20210408 15:20:05.631" level="DEBUG">http://127.0.0.1:60986 "DELETE /session/b7a2d95d724dd1c43bbef8110f7a2b82 HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 15:20:05.632" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 15:20:05.693" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:05.574" endtime="20210408 15:20:05.693"></status>
 </kw>
-<msg timestamp="20210408 11:31:50.530" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 11:31:50.411" endtime="20210408 11:31:50.530"></status>
+<msg timestamp="20210408 15:20:05.694" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 15:20:05.573" endtime="20210408 15:20:05.694"></status>
 </kw>
 <tags>
-<tag>contextmenu</tag>
+<tag>dragdrop</tag>
 </tags>
-<status status="PASS" starttime="20210408 11:31:42.010" endtime="20210408 11:31:50.531" critical="yes"></status>
+<status status="FAIL" starttime="20210408 15:19:56.165" endtime="20210408 15:20:05.694" critical="yes">B != A</status>
 </test>
-<status status="PASS" starttime="20210408 11:31:41.814" endtime="20210408 11:31:50.534"></status>
+<status status="FAIL" starttime="20210408 15:19:55.947" endtime="20210408 15:20:05.695"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">contextmenu</stat>
+<stat pass="0" fail="1">dragdrop</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="The Internet Test">The Internet Test</stat>
+<stat pass="0" fail="1" id="s1" name="The Internet Test">The Internet Test</stat>
 </suite>
 </statistics>
 <errors>
