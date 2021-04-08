@@ -7,6 +7,8 @@ ${HOME_PAGE_TITLE}=  Welcome to the-internet
 ${FORM_AUTH_LINK_TEXT}=  Form Authentication
 ${ADD_PAGE_LINK_TEXT}=  Add/Remove Elements
 ${CHECKBOX_PAGE_LINK}=  Checkboxes
+${CONTEXTMENU_PAGE_LINK_TEXT}=  Context Menu
+
 *** Keywords ***
 Load
     Go to  ${HOME_PAGE_URL}
@@ -22,4 +24,7 @@ Click On "Add/Remove Elements" Link
     
 Click On "Checkboxes" Link Text
     Click Link    ${CHECKBOX_PAGE_LINK}
+    
+Click on "Context Menu" Link Text
+    Click Link    ${CONTEXTMENU_PAGE_LINK_TEXT}
 

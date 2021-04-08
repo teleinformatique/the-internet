@@ -31,3 +31,7 @@ Should Check And Uncheck on "CheckBox" Page
     [Tags]  checkboxes
     TheInternetApp.Navigate To "Checkbox" Page
 
+Should Right Click On "Context Menu" Page
+    [Tags]  contextmenu
+    TheInternetApp.Navigate to "Context Menu" Page
+

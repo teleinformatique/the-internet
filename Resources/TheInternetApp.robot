@@ -4,6 +4,7 @@ Resource  ./PO/FormAuthPage.robot
 Resource  ./PO/SecurePage.robot
 Resource  ./PO/AddRemoveElementPage.robot
 Resource  ./PO/CheckBoxPage.robot
+Resource  ./PO/ContextMenuPage.robot
 
 *** Variables ***
 
@@ -48,5 +49,14 @@ Navigate To "Checkbox" Page
     CheckBoxPage.Verify Second CheckBox Is Checked
     CheckBoxPage.Uncheck Checked CheckBox
     CheckBoxPage.Verify Second CheckBox Is Not Checked
+
+
+Navigate to "Context Menu" Page
+    HomePage.Load
+    HomePage.Click on "Context Menu" Link Text
+    ContextMenuPage.Verify Page Loaded
+    ContextMenuPage.Move Mouse to Context Menu Zone
+    ContextMenuPage.Right Click on Context Menu Zone
+    ContextMenuPage.Verify Alert Showed
 
 

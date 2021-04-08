@@ -1,222 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.2 on darwin)" generated="20210408 10:04:55.059" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.2 on darwin)" generated="20210408 11:31:41.812" rpa="false">
 <suite id="s1" name="The Internet Test" source="/Users/khadim/Projects/the-internet.robot/Tests/The_Internet_Test.robot">
-<test id="s1-t1" name="Should Check And Uncheck on &quot;CheckBox&quot; Page">
+<test id="s1-t1" name="Should Right Click On &quot;Context Menu&quot; Page">
 <kw name="Begin Test Case" library="Common" type="setup">
-<msg timestamp="20210408 10:04:55.278" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 11:31:42.011" level="TRACE">Arguments: [  ]</msg>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
 <arguments>
 <arg>about:blank</arg>
 <arg>Chrome</arg>
 </arguments>
-<msg timestamp="20210408 10:04:55.278" level="TRACE">Arguments: [ 'about:blank' | 'Chrome' ]</msg>
-<msg timestamp="20210408 10:04:55.278" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
-<msg timestamp="20210408 10:04:56.299" level="DEBUG">POST http://127.0.0.1:49753/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}</msg>
-<msg timestamp="20210408 10:04:56.300" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:49753</msg>
-<msg timestamp="20210408 10:04:58.911" level="DEBUG">http://127.0.0.1:49753 "POST /session HTTP/1.1" 200 763</msg>
-<msg timestamp="20210408 10:04:58.912" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:04:58.912" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/timeouts {"script": 5000}</msg>
-<msg timestamp="20210408 10:04:58.915" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:04:58.916" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:04:58.916" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/timeouts {"implicit": 0}</msg>
-<msg timestamp="20210408 10:04:58.918" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:04:58.919" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:04:58.919" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/url {"url": "about:blank"}</msg>
-<msg timestamp="20210408 10:04:58.974" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:04:58.975" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:04:58.975" level="DEBUG">Opened browser with session id 0ab380d94e7efbf5f436414ed2165e78.</msg>
-<msg timestamp="20210408 10:04:58.975" level="TRACE">Return: 1</msg>
-<status status="PASS" starttime="20210408 10:04:55.278" endtime="20210408 10:04:58.975"></status>
+<msg timestamp="20210408 11:31:42.011" level="TRACE">Arguments: [ 'about:blank' | 'Chrome' ]</msg>
+<msg timestamp="20210408 11:31:42.011" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
+<msg timestamp="20210408 11:31:43.032" level="DEBUG">POST http://127.0.0.1:57060/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}</msg>
+<msg timestamp="20210408 11:31:43.034" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:57060</msg>
+<msg timestamp="20210408 11:31:46.774" level="DEBUG">http://127.0.0.1:57060 "POST /session HTTP/1.1" 200 763</msg>
+<msg timestamp="20210408 11:31:46.775" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:46.775" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts {"script": 5000}</msg>
+<msg timestamp="20210408 11:31:46.777" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:46.777" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:46.777" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts {"implicit": 0}</msg>
+<msg timestamp="20210408 11:31:46.779" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:46.779" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:46.780" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/url {"url": "about:blank"}</msg>
+<msg timestamp="20210408 11:31:46.806" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:46.806" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:46.806" level="DEBUG">Opened browser with session id b0fa2fde4c074b6bac98ddca7ed671f8.</msg>
+<msg timestamp="20210408 11:31:46.807" level="TRACE">Return: 1</msg>
+<status status="PASS" starttime="20210408 11:31:42.011" endtime="20210408 11:31:46.807"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<msg timestamp="20210408 10:04:58.977" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20210408 10:04:58.977" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/window/maximize {}</msg>
-<msg timestamp="20210408 10:04:59.115" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/window/maximize HTTP/1.1" 200 50</msg>
-<msg timestamp="20210408 10:04:59.116" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:04:59.116" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:04:58.976" endtime="20210408 10:04:59.116"></status>
+<msg timestamp="20210408 11:31:46.807" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 11:31:46.808" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/window/maximize {}</msg>
+<msg timestamp="20210408 11:31:46.939" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/window/maximize HTTP/1.1" 200 50</msg>
+<msg timestamp="20210408 11:31:46.940" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:46.940" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:46.807" endtime="20210408 11:31:46.940"></status>
 </kw>
-<msg timestamp="20210408 10:04:59.117" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:04:55.277" endtime="20210408 10:04:59.117"></status>
+<msg timestamp="20210408 11:31:46.940" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:42.011" endtime="20210408 11:31:46.940"></status>
 </kw>
-<kw name="Navigate To &quot;Checkbox&quot; Page" library="TheInternetApp">
-<msg timestamp="20210408 10:04:59.118" level="TRACE">Arguments: [  ]</msg>
+<kw name="Navigate to &quot;Context Menu&quot; Page" library="TheInternetApp">
+<msg timestamp="20210408 11:31:46.941" level="TRACE">Arguments: [  ]</msg>
 <kw name="Load" library="HomePage">
-<msg timestamp="20210408 10:04:59.119" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 11:31:46.942" level="TRACE">Arguments: [  ]</msg>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the current browser window to the provided ``url``.</doc>
 <arguments>
 <arg>${HOME_PAGE_URL}</arg>
 </arguments>
-<msg timestamp="20210408 10:04:59.120" level="TRACE">Arguments: [ 'https://the-internet.herokuapp.com/' ]</msg>
-<msg timestamp="20210408 10:04:59.120" level="INFO">Opening url 'https://the-internet.herokuapp.com/'</msg>
-<msg timestamp="20210408 10:04:59.120" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/url {"url": "https://the-internet.herokuapp.com/"}</msg>
-<msg timestamp="20210408 10:05:02.643" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:05:02.644" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:02.644" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:04:59.119" endtime="20210408 10:05:02.644"></status>
+<msg timestamp="20210408 11:31:46.942" level="TRACE">Arguments: [ 'https://the-internet.herokuapp.com/' ]</msg>
+<msg timestamp="20210408 11:31:46.943" level="INFO">Opening url 'https://the-internet.herokuapp.com/'</msg>
+<msg timestamp="20210408 11:31:46.943" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/url {"url": "https://the-internet.herokuapp.com/"}</msg>
+<msg timestamp="20210408 11:31:49.370" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:49.371" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.371" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:46.942" endtime="20210408 11:31:49.371"></status>
 </kw>
-<msg timestamp="20210408 10:05:02.644" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:04:59.118" endtime="20210408 10:05:02.644"></status>
+<msg timestamp="20210408 11:31:49.371" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:46.941" endtime="20210408 11:31:49.371"></status>
 </kw>
-<kw name="Click On &quot;Checkboxes&quot; Link Text" library="HomePage">
-<msg timestamp="20210408 10:05:02.645" level="TRACE">Arguments: [  ]</msg>
+<kw name="Click on &quot;Context Menu&quot; Link Text" library="HomePage">
+<msg timestamp="20210408 11:31:49.372" level="TRACE">Arguments: [  ]</msg>
 <kw name="Click Link" library="SeleniumLibrary">
 <doc>Clicks a link identified by ``locator``.</doc>
 <arguments>
-<arg>${CHECKBOX_PAGE_LINK}</arg>
+<arg>${CONTEXTMENU_PAGE_LINK_TEXT}</arg>
 </arguments>
-<msg timestamp="20210408 10:05:02.645" level="TRACE">Arguments: [ 'Checkboxes' ]</msg>
-<msg timestamp="20210408 10:05:02.645" level="INFO">Clicking link 'Checkboxes'.</msg>
-<msg timestamp="20210408 10:05:02.646" level="DEBUG">GET http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/url {}</msg>
-<msg timestamp="20210408 10:05:02.657" level="DEBUG">http://127.0.0.1:49753 "GET /session/0ab380d94e7efbf5f436414ed2165e78/url HTTP/1.1" 200 47</msg>
-<msg timestamp="20210408 10:05:02.657" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:02.657" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/elements {"using": "xpath", "value": "//a[(@id='Checkboxes' or @name='Checkboxes' or @href='Checkboxes' or normalize-space(descendant-or-self::text())='Checkboxes' or @href='https://the-internet.herokuapp.com/Checkboxes')]"}</msg>
-<msg timestamp="20210408 10:05:02.677" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 10:05:02.677" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:02.677" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/element/daedbe18-9bdc-4d08-961c-067683de7bb5/click {"id": "daedbe18-9bdc-4d08-961c-067683de7bb5"}</msg>
-<msg timestamp="20210408 10:05:04.430" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/element/daedbe18-9bdc-4d08-961c-067683de7bb5/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:05:04.430" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.430" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:02.645" endtime="20210408 10:05:04.430"></status>
+<msg timestamp="20210408 11:31:49.372" level="TRACE">Arguments: [ 'Context Menu' ]</msg>
+<msg timestamp="20210408 11:31:49.372" level="INFO">Clicking link 'Context Menu'.</msg>
+<msg timestamp="20210408 11:31:49.372" level="DEBUG">GET http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/url {}</msg>
+<msg timestamp="20210408 11:31:49.377" level="DEBUG">http://127.0.0.1:57060 "GET /session/b0fa2fde4c074b6bac98ddca7ed671f8/url HTTP/1.1" 200 47</msg>
+<msg timestamp="20210408 11:31:49.378" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.378" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//a[(@id='Context Menu' or @name='Context Menu' or @href='Context Menu' or normalize-space(descendant-or-self::text())='Context Menu' or @href='https://the-internet.herokuapp.com/Context Menu')]"}</msg>
+<msg timestamp="20210408 11:31:49.392" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 11:31:49.392" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.392" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/element/84f9a21f-268a-4f30-870b-29291dac7c6d/click {"id": "84f9a21f-268a-4f30-870b-29291dac7c6d"}</msg>
+<msg timestamp="20210408 11:31:49.780" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/element/84f9a21f-268a-4f30-870b-29291dac7c6d/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:49.780" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.780" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.372" endtime="20210408 11:31:49.780"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.430" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:02.645" endtime="20210408 10:05:04.430"></status>
+<msg timestamp="20210408 11:31:49.780" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.371" endtime="20210408 11:31:49.780"></status>
 </kw>
-<kw name="Verify Page Loaded" library="CheckBoxPage">
-<msg timestamp="20210408 10:05:04.431" level="TRACE">Arguments: [  ]</msg>
+<kw name="Verify Page Loaded" library="ContextMenuPage">
+<msg timestamp="20210408 11:31:49.781" level="TRACE">Arguments: [  ]</msg>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
-<arg>${CHECKBOX_PAGE_TITLE_LOCATOR}</arg>
+<arg>${CONTEXTMENU_PAGE_TITLE_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210408 10:05:04.431" level="TRACE">Arguments: [ 'xpath=//div[@class="example"]/h3' ]</msg>
-<msg timestamp="20210408 10:05:04.432" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/elements {"using": "xpath", "value": "//div[@class=\"example\"]/h3"}</msg>
-<msg timestamp="20210408 10:05:04.447" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 10:05:04.447" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.448" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.431" endtime="20210408 10:05:04.448"></status>
+<msg timestamp="20210408 11:31:49.782" level="TRACE">Arguments: [ 'xpath=//div[@id="content"]/div/h3' ]</msg>
+<msg timestamp="20210408 11:31:49.782" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//div[@id=\"content\"]/div/h3"}</msg>
+<msg timestamp="20210408 11:31:49.798" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 11:31:49.798" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.799" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.781" endtime="20210408 11:31:49.799"></status>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <doc>Verifies that current page contains ``text``.</doc>
 <arguments>
-<arg>${CHECKBOX_PAGE_TITLE}</arg>
+<arg>${CONTEXTMENU_PAGE_TITLE}</arg>
 </arguments>
-<msg timestamp="20210408 10:05:04.448" level="TRACE">Arguments: [ 'Checkboxes' ]</msg>
-<msg timestamp="20210408 10:05:04.448" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/frame {"id": null}</msg>
-<msg timestamp="20210408 10:05:04.453" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/frame HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:05:04.454" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.454" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/elements {"using": "xpath", "value": "//*[contains(., 'Checkboxes')]"}</msg>
-<msg timestamp="20210408 10:05:04.474" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/elements HTTP/1.1" 200 485</msg>
-<msg timestamp="20210408 10:05:04.475" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.475" level="INFO">Current page contains text 'Checkboxes'.</msg>
-<msg timestamp="20210408 10:05:04.475" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.448" endtime="20210408 10:05:04.475"></status>
+<msg timestamp="20210408 11:31:49.800" level="TRACE">Arguments: [ 'Context Menu' ]</msg>
+<msg timestamp="20210408 11:31:49.801" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/frame {"id": null}</msg>
+<msg timestamp="20210408 11:31:49.806" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/frame HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:49.806" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.807" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//*[contains(., 'Context Menu')]"}</msg>
+<msg timestamp="20210408 11:31:49.821" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 485</msg>
+<msg timestamp="20210408 11:31:49.822" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.822" level="INFO">Current page contains text 'Context Menu'.</msg>
+<msg timestamp="20210408 11:31:49.822" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.799" endtime="20210408 11:31:49.823"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.475" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.431" endtime="20210408 10:05:04.476"></status>
+<msg timestamp="20210408 11:31:49.823" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.781" endtime="20210408 11:31:49.823"></status>
 </kw>
-<kw name="Verify Second CheckBox Is Checked" library="CheckBoxPage">
-<msg timestamp="20210408 10:05:04.476" level="TRACE">Arguments: [  ]</msg>
-<kw name="Checkbox Should Be Selected" library="SeleniumLibrary">
-<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<kw name="Move Mouse to Context Menu Zone" library="ContextMenuPage">
+<msg timestamp="20210408 11:31:49.824" level="TRACE">Arguments: [  ]</msg>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
 <arguments>
-<arg>${CHECKED_BOX}</arg>
+<arg>${CONTEXTMENU_ZONE_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210408 10:05:04.477" level="TRACE">Arguments: [ 'xpath=//form[@id="checkboxes"]/input[2]' ]</msg>
-<msg timestamp="20210408 10:05:04.477" level="INFO">Verifying checkbox 'xpath=//form[@id="checkboxes"]/input[2]' is selected.</msg>
-<msg timestamp="20210408 10:05:04.477" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/elements {"using": "xpath", "value": "//form[@id=\"checkboxes\"]/input[2]"}</msg>
-<msg timestamp="20210408 10:05:04.489" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 10:05:04.489" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.489" level="DEBUG">GET http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/name {"id": "67457122-2ab9-4097-9081-77b7417d84a7"}</msg>
-<msg timestamp="20210408 10:05:04.494" level="DEBUG">http://127.0.0.1:49753 "GET /session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/name HTTP/1.1" 200 17</msg>
-<msg timestamp="20210408 10:05:04.495" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.495" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/execute/sync {"script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0&gt;b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k&lt;arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g&lt;e;g++)g in c&amp;&amp;b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&amp;&amp;!r(\"iPod\")&amp;&amp;!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&amp;&amp;!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&amp;&amp;!(-1!=n.toLowerCase().indexOf(\"webkit\")&amp;&amp;!r(\"Edge\"))&amp;&amp;!(r(\"Trident\")||r(\"MSIE\"))&amp;&amp;!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&amp;&amp;!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&amp;&amp;(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&amp;&amp;F&gt;parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&amp;&amp;y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&amp;&amp;!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&amp;&amp;!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&amp;&amp;!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&amp;&amp;!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&amp;&amp;!(8&lt;=Number(G)),fa=y&amp;&amp;!(9&lt;=Number(G));I&amp;&amp;M&amp;&amp;L(2.3);I&amp;&amp;M&amp;&amp;L(4);J&amp;&amp;M&amp;&amp;L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&amp;&amp;\"value\"==b&amp;&amp;R(a,\"INPUT\")?a.value:fa&amp;&amp;!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&amp;&amp;a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0&lt;c&amp;&amp;(a=[a.slice(0,c),a.slice(c+1)],2==a.length&amp;&amp;b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&amp;&amp;\"value\"==b&amp;&amp;R(a,\"OPTION\")&amp;&amp;null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&amp;&amp;\"string\"!==typeof b&amp;&amp;(b=b.toString());return!!a&amp;&amp;1==a.nodeType&amp;&amp;(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&amp;&amp;!f(e)&amp;&amp;(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&amp;&amp;T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&amp;&amp;a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&amp;&amp;\"src\"==c||g&amp;&amp;\"href\"==c)return(e=Q(a,c))&amp;&amp;(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&amp;&amp;1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u&lt;U.length;u++)if(u in U&amp;&amp;U[u]===c){c=u;break a}c=-1}if(0&lt;=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&amp;&amp;null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&amp;&amp;(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&amp;&amp;X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);", "args": [{"ELEMENT": "67457122-2ab9-4097-9081-77b7417d84a7", "element-6066-11e4-a52e-4f735466cecf": "67457122-2ab9-4097-9081-77b7417d84a7"}, "type"]}</msg>
-<msg timestamp="20210408 10:05:04.501" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/execute/sync HTTP/1.1" 200 20</msg>
-<msg timestamp="20210408 10:05:04.502" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.502" level="DEBUG">GET http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/selected {"id": "67457122-2ab9-4097-9081-77b7417d84a7"}</msg>
-<msg timestamp="20210408 10:05:04.514" level="DEBUG">http://127.0.0.1:49753 "GET /session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/selected HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:05:04.514" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.514" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.477" endtime="20210408 10:05:04.514"></status>
+<msg timestamp="20210408 11:31:49.824" level="TRACE">Arguments: [ 'xpath=//div[@id="hot-spot"]' ]</msg>
+<msg timestamp="20210408 11:31:49.824" level="INFO">Simulating Mouse Over on element 'xpath=//div[@id="hot-spot"]'.</msg>
+<msg timestamp="20210408 11:31:49.824" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//div[@id=\"hot-spot\"]"}</msg>
+<msg timestamp="20210408 11:31:49.838" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 11:31:49.838" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:49.839" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "b6fadcbf-4470-4457-a0bd-11232418781f"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}</msg>
+<msg timestamp="20210408 11:31:50.100" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/actions HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:50.101" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.101" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.824" endtime="20210408 11:31:50.101"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.515" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.476" endtime="20210408 10:05:04.515"></status>
+<msg timestamp="20210408 11:31:50.101" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:49.823" endtime="20210408 11:31:50.101"></status>
 </kw>
-<kw name="Uncheck Checked CheckBox" library="CheckBoxPage">
-<msg timestamp="20210408 10:05:04.515" level="TRACE">Arguments: [  ]</msg>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
+<kw name="Right Click on Context Menu Zone" library="ContextMenuPage">
+<msg timestamp="20210408 11:31:50.102" level="TRACE">Arguments: [  ]</msg>
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
 <arguments>
-<arg>${CHECKED_BOX}</arg>
+<arg>${CONTEXTMENU_ZONE_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210408 10:05:04.515" level="TRACE">Arguments: [ 'xpath=//form[@id="checkboxes"]/input[2]' ]</msg>
-<msg timestamp="20210408 10:05:04.515" level="INFO">Clicking element 'xpath=//form[@id="checkboxes"]/input[2]'.</msg>
-<msg timestamp="20210408 10:05:04.516" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/elements {"using": "xpath", "value": "//form[@id=\"checkboxes\"]/input[2]"}</msg>
-<msg timestamp="20210408 10:05:04.521" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 10:05:04.521" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.522" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/click {"id": "67457122-2ab9-4097-9081-77b7417d84a7"}</msg>
-<msg timestamp="20210408 10:05:04.560" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:05:04.561" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.561" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.515" endtime="20210408 10:05:04.562"></status>
+<msg timestamp="20210408 11:31:50.102" level="TRACE">Arguments: [ 'xpath=//div[@id="hot-spot"]' ]</msg>
+<msg timestamp="20210408 11:31:50.102" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/elements {"using": "xpath", "value": "//div[@id=\"hot-spot\"]"}</msg>
+<msg timestamp="20210408 11:31:50.108" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20210408 11:31:50.109" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.109" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "b6fadcbf-4470-4457-a0bd-11232418781f"}}, {"type": "pointerDown", "duration": 0, "button": 2}, {"type": "pointerUp", "duration": 0, "button": 2}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}</msg>
+<msg timestamp="20210408 11:31:50.389" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/actions HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:50.390" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.390" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:50.102" endtime="20210408 11:31:50.390"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.562" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.515" endtime="20210408 10:05:04.562"></status>
+<msg timestamp="20210408 11:31:50.391" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:50.101" endtime="20210408 11:31:50.391"></status>
 </kw>
-<kw name="Verify Second CheckBox Is Not Checked" library="CheckBoxPage">
-<msg timestamp="20210408 10:05:04.563" level="TRACE">Arguments: [  ]</msg>
-<kw name="Checkbox Should Not Be Selected" library="SeleniumLibrary">
-<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<kw name="Verify Alert Showed" library="ContextMenuPage">
+<msg timestamp="20210408 11:31:50.392" level="TRACE">Arguments: [  ]</msg>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
 <arguments>
-<arg>${CHECKED_BOX}</arg>
+<arg>You selected a context menu</arg>
 </arguments>
-<msg timestamp="20210408 10:05:04.563" level="TRACE">Arguments: [ 'xpath=//form[@id="checkboxes"]/input[2]' ]</msg>
-<msg timestamp="20210408 10:05:04.563" level="INFO">Verifying checkbox 'xpath=//form[@id="checkboxes"]/input[2]' is not selected.</msg>
-<msg timestamp="20210408 10:05:04.564" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/elements {"using": "xpath", "value": "//form[@id=\"checkboxes\"]/input[2]"}</msg>
-<msg timestamp="20210408 10:05:04.572" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20210408 10:05:04.573" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.573" level="DEBUG">GET http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/name {"id": "67457122-2ab9-4097-9081-77b7417d84a7"}</msg>
-<msg timestamp="20210408 10:05:04.577" level="DEBUG">http://127.0.0.1:49753 "GET /session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/name HTTP/1.1" 200 17</msg>
-<msg timestamp="20210408 10:05:04.577" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.577" level="DEBUG">POST http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/execute/sync {"script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0&gt;b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k&lt;arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g&lt;e;g++)g in c&amp;&amp;b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&amp;&amp;!r(\"iPod\")&amp;&amp;!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&amp;&amp;!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&amp;&amp;!(-1!=n.toLowerCase().indexOf(\"webkit\")&amp;&amp;!r(\"Edge\"))&amp;&amp;!(r(\"Trident\")||r(\"MSIE\"))&amp;&amp;!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&amp;&amp;!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&amp;&amp;(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&amp;&amp;F&gt;parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&amp;&amp;y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&amp;&amp;!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&amp;&amp;!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&amp;&amp;!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&amp;&amp;!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&amp;&amp;!(8&lt;=Number(G)),fa=y&amp;&amp;!(9&lt;=Number(G));I&amp;&amp;M&amp;&amp;L(2.3);I&amp;&amp;M&amp;&amp;L(4);J&amp;&amp;M&amp;&amp;L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&amp;&amp;\"value\"==b&amp;&amp;R(a,\"INPUT\")?a.value:fa&amp;&amp;!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&amp;&amp;a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0&lt;c&amp;&amp;(a=[a.slice(0,c),a.slice(c+1)],2==a.length&amp;&amp;b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&amp;&amp;\"value\"==b&amp;&amp;R(a,\"OPTION\")&amp;&amp;null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&amp;&amp;\"string\"!==typeof b&amp;&amp;(b=b.toString());return!!a&amp;&amp;1==a.nodeType&amp;&amp;(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&amp;&amp;!f(e)&amp;&amp;(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&amp;&amp;T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&amp;&amp;a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&amp;&amp;\"src\"==c||g&amp;&amp;\"href\"==c)return(e=Q(a,c))&amp;&amp;(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&amp;&amp;1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u&lt;U.length;u++)if(u in U&amp;&amp;U[u]===c){c=u;break a}c=-1}if(0&lt;=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&amp;&amp;null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&amp;&amp;(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&amp;&amp;X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);", "args": [{"ELEMENT": "67457122-2ab9-4097-9081-77b7417d84a7", "element-6066-11e4-a52e-4f735466cecf": "67457122-2ab9-4097-9081-77b7417d84a7"}, "type"]}</msg>
-<msg timestamp="20210408 10:05:04.583" level="DEBUG">http://127.0.0.1:49753 "POST /session/0ab380d94e7efbf5f436414ed2165e78/execute/sync HTTP/1.1" 200 20</msg>
-<msg timestamp="20210408 10:05:04.583" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.583" level="DEBUG">GET http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/selected {"id": "67457122-2ab9-4097-9081-77b7417d84a7"}</msg>
-<msg timestamp="20210408 10:05:04.590" level="DEBUG">http://127.0.0.1:49753 "GET /session/0ab380d94e7efbf5f436414ed2165e78/element/67457122-2ab9-4097-9081-77b7417d84a7/selected HTTP/1.1" 200 15</msg>
-<msg timestamp="20210408 10:05:04.590" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.590" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.563" endtime="20210408 10:05:04.590"></status>
+<msg timestamp="20210408 11:31:50.393" level="TRACE">Arguments: [ 'You selected a context menu' ]</msg>
+<msg timestamp="20210408 11:31:50.394" level="DEBUG">GET http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text {}</msg>
+<msg timestamp="20210408 11:31:50.395" level="DEBUG">http://127.0.0.1:57060 "GET /session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text HTTP/1.1" 200 39</msg>
+<msg timestamp="20210408 11:31:50.396" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.396" level="DEBUG">GET http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text {}</msg>
+<msg timestamp="20210408 11:31:50.398" level="DEBUG">http://127.0.0.1:57060 "GET /session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/text HTTP/1.1" 200 39</msg>
+<msg timestamp="20210408 11:31:50.398" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.398" level="DEBUG">POST http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/accept {}</msg>
+<msg timestamp="20210408 11:31:50.409" level="DEBUG">http://127.0.0.1:57060 "POST /session/b0fa2fde4c074b6bac98ddca7ed671f8/alert/accept HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:50.409" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.409" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:50.393" endtime="20210408 11:31:50.410"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.590" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.562" endtime="20210408 10:05:04.590"></status>
+<msg timestamp="20210408 11:31:50.410" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:50.392" endtime="20210408 11:31:50.410"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.590" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:04:59.118" endtime="20210408 10:05:04.590"></status>
+<msg timestamp="20210408 11:31:50.410" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:46.941" endtime="20210408 11:31:50.411"></status>
 </kw>
 <kw name="End Test Case" library="Common" type="teardown">
-<msg timestamp="20210408 10:05:04.591" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 11:31:50.412" level="TRACE">Arguments: [  ]</msg>
 <kw name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20210408 10:05:04.591" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20210408 10:05:04.591" level="DEBUG">Closing all browsers.</msg>
-<msg timestamp="20210408 10:05:04.591" level="DEBUG">DELETE http://127.0.0.1:49753/session/0ab380d94e7efbf5f436414ed2165e78 {}</msg>
-<msg timestamp="20210408 10:05:04.648" level="DEBUG">http://127.0.0.1:49753 "DELETE /session/0ab380d94e7efbf5f436414ed2165e78 HTTP/1.1" 200 14</msg>
-<msg timestamp="20210408 10:05:04.649" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210408 10:05:04.695" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.591" endtime="20210408 10:05:04.695"></status>
+<msg timestamp="20210408 11:31:50.412" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210408 11:31:50.412" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20210408 11:31:50.413" level="DEBUG">DELETE http://127.0.0.1:57060/session/b0fa2fde4c074b6bac98ddca7ed671f8 {}</msg>
+<msg timestamp="20210408 11:31:50.478" level="DEBUG">http://127.0.0.1:57060 "DELETE /session/b0fa2fde4c074b6bac98ddca7ed671f8 HTTP/1.1" 200 14</msg>
+<msg timestamp="20210408 11:31:50.478" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210408 11:31:50.530" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:50.412" endtime="20210408 11:31:50.530"></status>
 </kw>
-<msg timestamp="20210408 10:05:04.695" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210408 10:05:04.591" endtime="20210408 10:05:04.695"></status>
+<msg timestamp="20210408 11:31:50.530" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210408 11:31:50.411" endtime="20210408 11:31:50.530"></status>
 </kw>
 <tags>
-<tag>checkboxes</tag>
+<tag>contextmenu</tag>
 </tags>
-<status status="PASS" starttime="20210408 10:04:55.277" endtime="20210408 10:05:04.696" critical="yes"></status>
+<status status="PASS" starttime="20210408 11:31:42.010" endtime="20210408 11:31:50.531" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210408 10:04:55.060" endtime="20210408 10:05:04.696"></status>
+<status status="PASS" starttime="20210408 11:31:41.814" endtime="20210408 11:31:50.534"></status>
 </suite>
 <statistics>
 <total>
@@ -224,7 +213,7 @@
 <stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">checkboxes</stat>
+<stat pass="1" fail="0">contextmenu</stat>
 </tag>
 <suite>
 <stat pass="1" fail="0" id="s1" name="The Internet Test">The Internet Test</stat>
