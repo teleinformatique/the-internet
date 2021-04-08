@@ -1,6 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 Library    XML
+Library    Collections
 
 *** Variables ***
 ${ADD_PAGE_TITLE_LOCATOR}=  xpath=//div[@id="content"]/h3
@@ -21,8 +22,9 @@ Click On Add Element Button
 
 Verify Added Element
     [Arguments]   ${number_element}
+    Wait Until Page Contains Element    ${ADDED_ELEMENT_LIST}
     Page Should Contain Element    ${ADDED_ELEMENT_LIST}    ${number_element}
-    
+
     
 Remove ELement In List
     Click Button    ${FIRST_ELEMENT_LOCATOR}

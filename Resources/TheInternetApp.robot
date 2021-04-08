@@ -37,6 +37,6 @@ Navigate To "ADD/Remove Element" Page
     AddRemoveElementPage.Click On Add Element Button
     AddRemoveElementPage.Verify Added Element  2
     AddRemoveElementPage.Remove ELement In List
-    AddRemoveElementPage.Verify Added Element  2
+    AddRemoveElementPage.Verify Added Element  1
 
 
