@@ -23,7 +23,7 @@ Should Logout From "Secure" Page
     [Tags]  logout
     TheInternetApp.Logout User   &{VALID_USER}
 
-Should Add/Remove Element on "Add/Remove Element" Page
+Should Add Remove Element on "Add/Remove Element" Page
     [Tags]  add_remove
     TheInternetApp.Navigate To "ADD/Remove Element" Page
 
@@ -42,3 +42,11 @@ Should Be DragDrop Element on "Drag and Drop" Page
 Should Select on "DropDown" Page
     [Tags]  dropdown
     TheInternetApp.Navigate To "DropDown" Page
+
+Should Remove dynamic contols on "Dynamics Controls" Page
+    [Tags]  dynamiccontrols
+    TheInternetApp.Remove Element On "Dynamics Controle" Page
+
+Should Add dynamic contols on "Dynamics Controls" Page
+    [Tags]  dynamiccontrols
+    TheInternetApp.Add Element On "Dynamics Controle" Page

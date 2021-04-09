@@ -7,6 +7,7 @@ Resource  ./PO/CheckBoxPage.robot
 Resource  ./PO/ContextMenuPage.robot
 Resource  ./PO/DragDropPage.robot
 Resource  ./PO/DropDownPage.robot
+Resource  ./PO/DynamicControlsPage.robot
 
 *** Variables ***
 
@@ -77,3 +78,25 @@ Navigate To "DropDown" Page
     DropDownPage.Verify Option "Please select an option" is Selected
     DropDownPage.Select Option
     DropDownPage.Verify Option Is Select
+
+Remove Element On "Dynamics Controle" Page
+    HomePage.Load
+    HomePage.Click on "Dynamic Controls" Link
+    DynamicControlsPage.Verify Page Loaded
+    DynamicControlsPage.Verify Check Box Is Visible
+    DynamicControlsPage.Verify Check Box Is Visible
+    DynamicControlsPage.Remove Check Box
+    DynamicControlsPage.Verify Check Box Is Not Visible
+
+Add Element On "Dynamics Controle" Page
+    Remove Element On "Dynamics Controle" Page
+    DynamicControlsPage.Add Check Box
+    DynamicControlsPage.Verify Check Box Added Is Visible
+
+Enabled Element On "Dynamics Controle" Page
+    HomePage.Load
+    HomePage.Click on "Dynamic Controls" Link
+    DynamicControlsPage.Verify Page Loaded
+    #DynamicControlsPage.Verify Element Is Disabled
+    #DynamicControlsPage.Enable Element
+    #DynamicControlsPage.Verify Element Is Enabled
