@@ -7,5 +7,5 @@
 *.iml
 out
 gen
-Results
+Results/*
 .DS_Store
