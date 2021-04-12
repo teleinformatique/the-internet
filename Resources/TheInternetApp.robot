@@ -97,6 +97,6 @@ Enabled Element On "Dynamics Controle" Page
     HomePage.Load
     HomePage.Click on "Dynamic Controls" Link
     DynamicControlsPage.Verify Page Loaded
-    #DynamicControlsPage.Verify Element Is Disabled
+    DynamicControlsPage.Verify Input Is Disabled
     #DynamicControlsPage.Enable Element
     #DynamicControlsPage.Verify Element Is Enabled

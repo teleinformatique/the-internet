@@ -8,7 +8,8 @@ ${DYNAMICSCONTROL_CHECKBOX_REMOVED_LOCATOR}=  xpath=//div[@id="checkbox"]/input[
 ${DYNAMICSCONTROL_BUTTON}=  xpath=//form[@id="checkbox-example"]/button
 ${LOADER_LOCATOR}=  css=#loading
 ${DYNAMICSCONTROL_CHECKBOX_ADDED_LOCATOR}=  xpath=//div/input[@id="checkbox"]
-
+${DYNAMICCONTROLS_ENABLE_BUTTON}=  xpaht=//form[@id="input-example"]/button
+${DYNAMICCONTROLS_ENABLE_INPUT}=  xpaht=//form[@id="input-example"]/button
 *** Keywords ***
 Verify Page Loaded
     Wait Until Page Contains Element  ${DYNAMICSCONTROL_PAGE_TITLE_LOCATOR}
@@ -38,3 +39,8 @@ Click On Button
     Should Be Equal As Strings  ${text}  ${button_text}
     Click Button   ${DYNAMICSCONTROL_BUTTON}
     Element Should Be Visible  ${LOADER_LOCATOR}
+
+Verify Input Is Disabled
+    Element Should Be Disabled  ${DYNAMICCONTROLS_ENABLE_INPUT}
+
+
