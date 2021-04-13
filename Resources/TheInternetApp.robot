@@ -8,6 +8,7 @@ Resource  ./PO/ContextMenuPage.robot
 Resource  ./PO/DragDropPage.robot
 Resource  ./PO/DropDownPage.robot
 Resource  ./PO/DynamicControlsPage.robot
+Resource  ./PO/DynamicLoading.robot
 
 *** Variables ***
 
@@ -38,8 +39,8 @@ Navigate To "ADD/Remove Element" Page
     HomePage.Load
     HomePage.Click On "Add/Remove Elements" Link
     AddRemoveElementPage.Verify Page Loaded
-    AddRemoveElementPage.Click On Add Element Button
-    AddRemoveElementPage.Click On Add Element Button
+    Repeat Keyword    2    AddRemoveElementPage.Click On Add Element Button
+    #AddRemoveElementPage.Click On Add Element Button
     AddRemoveElementPage.Verify Added Element  2
     AddRemoveElementPage.Remove ELement In List
     AddRemoveElementPage.Verify Added Element  1
@@ -100,3 +101,11 @@ Enabled Element On "Dynamics Controle" Page
     DynamicControlsPage.Verify Input Is Disabled
     #DynamicControlsPage.Enable Element
     #DynamicControlsPage.Verify Element Is Enabled
+
+Navigate to "Dynamic Loading" Page
+    HomePage.Load
+    HomePage.Click on "Dynamic Loading" Link
+    DynamicLoading.Verify Page Loaded
+
+
+

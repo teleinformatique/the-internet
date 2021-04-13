@@ -11,6 +11,7 @@ ${CONTEXTMENU_PAGE_LINK_TEXT}=  Context Menu
 ${DRAGDROP_LINK_TEXT}=  Drag and Drop
 ${DROPDOWN_LINK_TEXT}=  Dropdown
 ${DYNAMICCONTROLS_LINK_TEXT}=  Dynamic Controls
+${DYNAMIC_LOADING_LINK_TEXT}=  Dynamic Loading
 
 
 *** Keywords ***
@@ -40,3 +41,6 @@ Click on "DropDown" Link Text
 
 Click on "Dynamic Controls" Link
     Click Link  ${DYNAMICCONTROLS_LINK_TEXT}
+
+Click on "Dynamic Loading" Link
+    Click Link  ${DYNAMIC_LOADING_LINK_TEXT}

@@ -50,3 +50,7 @@ Should Remove dynamic contols on "Dynamics Controls" Page
 Should Add dynamic contols on "Dynamics Controls" Page
     [Tags]  dynamiccontrols
     TheInternetApp.Add Element On "Dynamics Controle" Page
+
+Should able To Load Dynamic Element On "Dynamic Loading" Page
+    [Tags]  dynamicloading
+    TheInternetApp.Navigate to "Dynamic Loading" Page
